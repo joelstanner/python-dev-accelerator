@@ -236,7 +236,7 @@ using the built-in server.
 .. nextslide::
 
 To begin with, create a folder called ``cgitests``.  Then create a folder
-inside that called ``cgi`` and inside *that*, create a script called cgi.py:
+inside that called ``cgi-bin`` and inside *that*, create a script called cgi.py:
 
 .. code-block:: bash
 
@@ -265,7 +265,7 @@ Next, open ``cgi.py`` in your text editor and enter the following code:
 
 Once you've saved that file, start the Python CGI server.
 
-**!!Make sure you are in the cgitests directory, not the cgi directory!!**
+**!!Make sure you are in the cgitests directory, not the cgi-bin directory!!**
 
 .. code-block:: bash
 
